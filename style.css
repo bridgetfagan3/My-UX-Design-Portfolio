@@ -60,6 +60,9 @@ li {
   text-align: center;
 }
 
+.container-project-cover::before {
+  z-index: -1;
+}
 
 .copyright {
   font-family: 'Open Sans', sans-serif;
