@@ -9,89 +9,99 @@
   <title>Bridget Fagan's design work - Hello, thanks for checking out my website. I'm Bridget Fagan a UX Designer.</title>
 </head>
 <body>
-  <header class="header">
-    <div class="container-header"> 
-      <a href="/projects.html"><img src="/images/logo.svg" alt="logo"></a>
 
-      <nav>
-        <ul>
-          <li><a class="nav-links" href="/">projects</a></li>
-          <li><a class="nav-links" href="/about.html">about</a></li>
-          <li><a class="nav-links" href="/contact.html">contact</a></li>
-        </ul>
-      </nav>
+  <header class="container">
+    <div class="header">
+    <a href="/projects.html"><img src="/images/logo.svg" alt="logo"></a>
+
+    <nav class="container-nav">
+      <ul class="nav">
+        <li><a id="project-page-nav" class="nav-links" href="/">projects</a></li>
+        <li><a class="nav-links" href="/about.html">about</a></li>
+        <li><a class="nav-links" href="/contact.html">contact</a></li>
+      </ul>
+    </nav>
     </div>
   </header>
 
-    <div class="container">
-      <div class="heading-intro">
-        <p class="heading-first">Hi, I’m Bridget!
-I’m a UX Designer and Researcher.</p>
-        <p class="heading-second">Based in northern Minnesota, I explore human experience to help better people’s lives and grow businesses.
-</p>
-        <p class="heading-third">Things I Love:
-thoughtful design
-new challenges
-language learning with Netflix and Shakira
-
-</p>
-      </div>
+  <div class="container">
+    <div class="heading-intro">
+      <div class="heading-first"><span id="heading-first-pink">Hi</span>, I’m Bridget! <br>
+I’m a UX Designer and Researcher.</div>
+      <p class="heading-second">Based in northern Minnesota, I explore human experience to help better people’s lives and grow businesses.</p>
+      <p class="heading-third"><span id="heading-third-header">Things I Love:</span><br>
+thoughtful design <br>
+new challenges <br>
+language learning with Netflix and Shakira</p>
     </div>
-
-  <div class="div-block" onClick="handleScroll">
-    <p class="case-studies-label">UX/UI Case Studies</p>
-    <img src="/images/pink-arrow-down.svg" alt="down arrow">
   </div>
 
-  <section id="section-1" class="section1">
-    <a href="#" class="link-block">
-      <div class="div-block1"></div>
-      <div class="container-project-cover">
-        project 1
+  <div class="container">
+    <div class="div-block" onClick="handleScroll">
+      <div class="case-studies-label">UX/UI Case Studies</div>
+      <div class="container-arrow-down-pink">
+        <img src="/images/pink-arrow-down.svg" alt="down arrow">
       </div>
-  </section>
+    </div>
+  </div>
 
-  <section id="section-2" class="section2">
-    <a href="#" class="link-block">
-      <div class="div-block2"></div>
-      <div class="container-project-cover">
-        project 2
-      </div>
-  </section>
-
-  <section id="section-3" class="section3">
-    <a href="#" class="link-block">
-      <div class="div-block3"></div>
-      <div class="container-project-cover">
-        project 3
-      </div>
-  </section>
-
-  <section id="section-4" class="section4">
-    <a href="/zeit.html" class="link-block">
-      <div class="div-block1"></div>
-      <div class="container-project-cover">
-        Zeit
-      </div>
-
-    </a>
-  </section>
-
-  <footer class="footer">
-    <div class="footer-container">
-      <p class="heading-footer"><span>Want to get in touch?</span>
-        <br>
-        <a href="mailto: hello@bridgetfagan.net"><span class="e-mail-link">hello@bridgetfagan.net</span></a></p>
+  <section class="container">
+    <div class="container-case-studies">
+    <div id="section-1" class="section1">
+      <a href="#" class="link-block">
+        <div class="div-block1"></div>
+        <div class="container-project-cover">
+          project 1
+        </div>
+      </a>
     </div>
 
-    <div class="div-block">
-      <a href="https://www.linkedin.com/in/bridgetfagan/" target="_blank" class="link-social-media"><img src="/images/icons8-linkedin.svg" alt="linkedin"></a>
-      <a href="https://www.instagram.com/bridgetfagan456/" target="_blank" class="link-social-media"><img src="/images/icons8-instagram.svg" alt="instagram"></a>
-      <a href="https://twitter.com/Bri_Fagan" target="_blank" class="link-social-media"><img src="/images/icons8-twitter-squared-96.svg" alt="twitter"></a>
-      <a href="https://medium.com/@bridgetfagan3" target="_blank" class="link-social-media"><img src="/images/icons8-medium-filled.svg" alt="medium"></a>
+    <div id="section-2" class="section2">
+      <a href="#" class="link-block">
+        <div class="div-block2"></div>
+        <div class="container-project-cover">
+          project 2
+        </div>
+      </a>
     </div>
-    <div>
-      <p class="copyright-paragraph">website design and development © Bridget Fagan 2019</p>
+
+    <div id="section-3" class="section3">
+      <a href="#" class="link-block">
+        <div class="div-block3"></div>
+        <div class="container-project-cover">
+          project 3
+        </div>
+      </a>
+    </div>
+
+    <div id="section-4" class="section4">
+      <a href="/zeit.html" class="link-block">
+        <div class="div-block4"></div>
+        <div class="container-project-cover">
+          <p>Zeit</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <footer class="container">
+    <div class="container-footer">
+      <div class="contact-info-footer">
+        <p class="heading-footer">Want to get in touch?
+          <br>
+          <a id="email-link" href="mailto: hello@bridgetfagan.net">hello@bridgetfagan.net</a></p>
+      </div>
+      <div class="container-bottom-footer">
+        <div class="social-media-links">
+          <a href="https://www.linkedin.com/in/bridgetfagan/" target="_blank" class="link-social-media"><img src="/images/icons8-linkedin.svg" alt="linkedin"></a>
+          <a href="https://www.instagram.com/bridgetfagan456/" target="_blank" class="link-social-media"><img src="/images/icons8-instagram.svg" alt="instagram"></a>
+          <a href="https://twitter.com/Bri_Fagan" target="_blank" class="link-social-media"><img src="/images/icons8-twitter-squared-96.svg" alt="twitter"></a>
+          <a href="https://medium.com/@bridgetfagan3" target="_blank" class="link-social-media"><img src="/images/icons8-medium-filled.svg" alt="medium"></a>
+        </div>
+        <div>
+          <p class="copyright">website <a id="link-invision-prototype" href="https://projects.invisionapp.com/share/DMPRSN6ZUP6#/screens" target="_blank">design</a> and <a id="link-github" target="_blank" href="https://github.com/bridgetfagan3/My-UX-Design-Portfolio">development</a> © Bridget Fagan 2019</p>
+        </div>
+      </div>
     </div>
   </footer>
 
