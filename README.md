@@ -1,2 +1,2 @@
 # bridgetfagan
-UX Design Portfolio
+UX Design Portfolio - www.bridgetfagandesign.com
