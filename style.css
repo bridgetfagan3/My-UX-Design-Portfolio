@@ -12,7 +12,7 @@ li {
   font-size: 16px;
   color: #e01095;
   width: 80%;
-  padding-top: 40px;
+  padding-top: 50px;
   letter-spacing: 2px;
 }
 
@@ -44,7 +44,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 85%;
+  width: 80%;
   padding-bottom: 40px;
 }
 
@@ -74,7 +74,7 @@ li {
 .div-block {
   display: flex;
   flex-direction: column;
-  width: 85%;
+  width: 80%;
   justify-content:flex-start;
 }
 
@@ -103,7 +103,7 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 85%;
+  width: 80%;
   padding-top: 35px;
 }
 
@@ -111,7 +111,6 @@ li {
 display:flex;
 justify-content: space-between;
 margin-top: -20px;
-
 }
 
 .nav-links {
@@ -119,14 +118,14 @@ margin-top: -20px;
   font-weight: 100;
   text-decoration: none;
   color: #000000;
-  padding: 25px;
+  padding: 20px;
   letter-spacing: 2px;
 }
 
 .heading-intro {
   display: flex;
   flex-direction: column;
-  width: 85%;
+  width: 80%;
   padding-top: 120px;
 }
 
