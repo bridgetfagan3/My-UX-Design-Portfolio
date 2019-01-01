@@ -106,12 +106,13 @@ li {
   justify-content: space-between;
   align-items: center;
   width: 85%;
-  padding-top: 45px;
+  padding-top: 35px;
 }
 
 .nav {
 display:flex;
 justify-content: space-between;
+margin-top: auto;
 
 }
 
