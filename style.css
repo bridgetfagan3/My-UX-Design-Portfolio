@@ -6,6 +6,17 @@ li {
   list-style: none;
 }
 
+
+.about-content {
+  text-align: left;
+  Margin-left: 40px;
+}
+
+.about-photo {
+  width: auto;
+  height: auto;
+}
+
 .case-studies-label {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
@@ -20,6 +31,15 @@ li {
   display: flex;
   width: 100%;
   justify-content: center;
+}
+
+.container-about {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 200px;
 }
 
 .container-arrow-down-pink {
