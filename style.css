@@ -66,6 +66,7 @@ li {
   flex-direction: column;
   width: 80%;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .copyright {
