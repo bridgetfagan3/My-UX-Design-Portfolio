@@ -48,7 +48,12 @@ li {
   padding-bottom: 40px;
 }
 
-.contact-info-footer {
+.container-nav {
+  display: flex;
+  text-align: center;
+}
+
+.footer-contact-info {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   letter-spacing: .22px;
@@ -56,11 +61,12 @@ li {
   padding-bottom: 80px;
 }
 
-.container-nav {
+.contact-page-info {
   display: flex;
+  flex-direction: column;
+  width: 80%;
   text-align: center;
 }
-
 
 .copyright {
   font-family: 'Open Sans', sans-serif;
