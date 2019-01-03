@@ -335,9 +335,8 @@ margin-top: -20px;
     justify-content: center;
   }
   #email-link {
-  display: flex;
-  justify-content: center;
-    padding:0px;
+  display: center;
+  margin-left: 75px;
   }
 
   .nav-list {
