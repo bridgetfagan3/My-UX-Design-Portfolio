@@ -337,6 +337,7 @@ margin-top: -20px;
   #email-link {
   display: flex;
   justify-content: center;
+    padding:4px 12px 12px 4px;
   }
 
   .nav-list {
