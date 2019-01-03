@@ -7,20 +7,28 @@
   <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
   <link rel="stylesheet" href="style.css">
   <title>Bridget Fagan's design work - Hello, thanks for checking out my website. I'm Bridget Fagan a UX Designer.</title>
+
 </head>
 <body>
 
   <header class="container">
     <div class="header">
-    <a href="/"><img src="images/logo.svg" alt="logo"></a>
+      <a href="/"><img class="logo" src="images/logo.svg" alt="logo"></a>
+      <img id="hamburger" src="images/bar-solid.svg" alt="menu icon">
 
-    <nav class="container-nav">
-      <ul class="nav">
+      <ul class="nav-list">
         <li><a id="highlighted-nav" class="nav-links" href="/">projects</a></li>
         <li><a class="nav-links" href="/about.html">about</a></li>
         <li><a class="nav-links" href="/contact.html">contact</a></li>
       </ul>
-    </nav>
+
+      <div id="nav-list-hidden">
+        <ul id="nav-list-links-hidden">
+          <li><a id="highlighted-nav" class="nav-links" href="/">projects</a></li>
+          <li><a class="nav-links" href="/about.html">about</a></li>
+          <li><a class="nav-links" href="/contact.html">contact</a></li>
+        </ul>
+      </div>
     </div>
   </header>
 
@@ -99,11 +107,13 @@ language learning with Netflix and Shakira</p>
           <a href="https://medium.com/@bridgetfagan3" target="_blank" class="link-social-media"><img src="images/icons8-medium-filled.svg" alt="medium"></a>
         </div>
         <div>
-          <p class="copyright">website <a id="link-invision-prototype" href="https://projects.invisionapp.com/share/DMPRSN6ZUP6#/screens" target="_blank">design</a> and <a id="link-github" target="_blank" href="https://github.com/bridgetfagan3/My-UX-Design-Portfolio">development</a> © Bridget Fagan 2019</p>
+          <p class="copyright">website design and <a id="link-github" target="_blank" href="https://github.com/bridgetfagan3/My-UX-Design-Portfolio">development</a> © Bridget Fagan 2019</p>
         </div>
       </div>
     </div>
   </footer>
+
+<script src="js/javascript.js"></script>
 
 </body>
 </html>
