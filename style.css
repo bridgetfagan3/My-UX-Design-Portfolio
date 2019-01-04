@@ -78,8 +78,8 @@ li {
   flex-direction: column;
   width: 80%;
   text-align: center;
-  padding-bottom: 200px;
-  padding-top: 200px
+  padding-bottom: 100px;
+  padding-top: 50px
 }
 
 .copyright {
@@ -179,6 +179,10 @@ li {
   letter-spacing: 2px;
 }
 
+.nav-links:hover {
+  text-decoration: underline;
+}
+
 .nav-list {
 display:flex;
 justify-content: space-between;
@@ -224,9 +228,16 @@ margin-top: -20px;
   background-color: black;
   font-weight: 200;
   text-decoration: none;
-  padding:16px 18px 16px 18px;
+  padding:16px 25px 16px 25px;
   border-radius: 3px;
   letter-spacing: 1px;
+}
+
+#email-link:hover {
+  color: black;
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
 }
 
 #link-github {
@@ -259,24 +270,42 @@ margin-top: -20px;
 #nav-list-hidden {
   display: none;
   align-items: center;
+  margin-bottom: -10em;
+
 }
 
 #nav-list-links-hidden {
   display: none;
+  position: relative;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   text-decoration: none;
   color: #000000;
   align-items: center;
   letter-spacing: 2px;
+  margin-bottom: -10em;
+  background-color: white;
+  height: 600px;
+  z-index: 2;
 }
 
 #nav-list-links-hidden li {
   text-align: center;
   padding: 30px;
+  background-color: white;
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
+
+  .contact-page-info {
+    display: flex;
+    flex-direction:column;
+    width: 80%;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 50px
+  }
 
   .logo {
     display: inline-block;
@@ -309,6 +338,10 @@ margin-top: -20px;
     letter-spacing: 2px;
   }
 
+  .nav-links:hover {
+    text-decoration: underline;
+  }
+
   #hamburger {
     display: block;
     padding-top: 1px;
@@ -330,16 +363,35 @@ margin-top: -20px;
     letter-spacing: 2px;
   }
 
-  .footer-contact-info {
-    display: flex;
-    justify-content: center;
-  }
   #email-link {
-  display: center;
-  margin-left: 60px;
-
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    font-weight: 200;
+    text-decoration: none;
+    padding:16px 25px 16px 25px;
+    border-radius: 3px;
+    letter-spacing: 1px;
   }
+
+  #email-link:hover {
+    color: black;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+  }
+
+  .footer-contact-info {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .22px;
+    line-height: 50px;
+
+    }
 
   .nav-list {
     display: none;
   }
+
+    }
