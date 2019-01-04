@@ -6,10 +6,15 @@ li {
   list-style: none;
 }
 
+a {
+  color: black;
+}
+
 .about-title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
+  text-decoration: underline;
 }
 .about-content {
   text-align: left;
