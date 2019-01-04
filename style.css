@@ -176,14 +176,12 @@ a {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   margin-top: 70px;
-  line-height: 23px;
+  line-height: 25px;
 }
-
 
 .link-social-media {
   padding: 17px;
 }
-
 
 
 .nav-links {
@@ -382,7 +380,7 @@ margin-top: -20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin-top: 50px;
-    line-height: 27px;
+    line-height: 25px;
   }
 
   .heading-first {
