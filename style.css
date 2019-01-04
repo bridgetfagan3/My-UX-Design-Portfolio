@@ -306,7 +306,7 @@ margin-top: -20px;
     width: 80%;
     align-items: center;
     padding-top: 45px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
   }
 
   .container-footer {
@@ -326,6 +326,19 @@ margin-top: -20px;
   .header {
     width: 80%;
     padding-top: 35px;
+  }
+
+  .heading-second {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .heading-third {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 70px;
+    line-height: 27px;
   }
 
   .heading-first {
