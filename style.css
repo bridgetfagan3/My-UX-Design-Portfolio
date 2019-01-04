@@ -6,10 +6,22 @@ li {
   list-style: none;
 }
 
-
+.about-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
 .about-content {
   text-align: left;
   Margin-left: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about-email-link {
+  color: black;
 }
 
 .about-photo {
@@ -39,8 +51,7 @@ li {
 
 .container-about {
   display:flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   width: 80%;
   padding-top: 50px;
   padding-bottom: 200px;
@@ -221,6 +232,16 @@ margin-top: -20px;
   justify-content: center;
 }
 
+.title-about-content {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  letter-spacing: .22px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 #email-link {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -364,6 +385,11 @@ margin-top: -20px;
     width: 100%;
   }
 
+  .about-content {
+    text-align: left;
+      Margin-left: 0px;
+  }
+
 
   .nav-links {
     font-family: 'Open Sans', sans-serif;
@@ -377,6 +403,7 @@ margin-top: -20px;
   .nav-links:hover {
     text-decoration: underline;
   }
+
 
   #hamburger {
     display: block;
