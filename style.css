@@ -23,7 +23,7 @@ li {
 
 .case-studies-label {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 16px;
   color: #e01095;
   width: 80%;
@@ -124,7 +124,7 @@ li {
   font-size: 30px;
   letter-spacing: .22px;
   padding-top: 30px;
-  padding-bottom: 14px;
+  padding-bottom: 140px;
   line-height: 60px;
 }
 
@@ -172,7 +172,7 @@ li {
 
 .nav-links {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   text-decoration: none;
   color: #000000;
   padding: 20px;
@@ -226,7 +226,7 @@ margin-top: -20px;
   font-size: 16px;
   color: white;
   background-color: black;
-  font-weight: 200;
+  font-weight: 300;
   text-decoration: none;
   padding:16px 25px 16px 25px;
   border-radius: 3px;
@@ -250,8 +250,8 @@ margin-top: -20px;
 
 #hamburger {
   display: none;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 110px;
 }
 
 #heading-first-pink {
@@ -293,6 +293,8 @@ margin-top: -20px;
   text-align: center;
   padding: 30px;
   background-color: white;
+  position: relative;
+  z-index: 2;
 
 }
 
@@ -316,6 +318,19 @@ margin-top: -20px;
   .header {
     width: 80%;
     padding-top: 35px;
+  }
+
+  .heading-first {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .heading-intro {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 60px;
   }
 
   .nav-list li {
@@ -368,7 +383,7 @@ margin-top: -20px;
     font-size: 14px;
     color: white;
     background-color: black;
-    font-weight: 200;
+    font-weight: 300;
     text-decoration: none;
     padding:16px 25px 16px 25px;
     border-radius: 3px;
