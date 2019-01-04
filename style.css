@@ -326,6 +326,16 @@ margin-top: -20px;
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
+  .about-content {
+    text-align: left;
+    Margin-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 50px;
+  }
+
   .contact-page-info {
     display: flex;
     flex-direction:column;
@@ -333,6 +343,14 @@ margin-top: -20px;
     align-items: center;
     padding-top: 45px;
     padding-bottom: 2px;
+  }
+
+  .container-about {
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 200px;
   }
 
   .container-footer {
