@@ -1,0 +1,412 @@
+body {
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+
+.about-content {
+  text-align: left;
+  Margin-left: 40px;
+}
+
+.about-photo {
+  width: auto;
+  height: auto;
+}
+
+.active {
+  display: block;
+}
+
+.case-studies-label {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #e01095;
+  width: 80%;
+  padding-top: 50px;
+  letter-spacing: 2px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.container-about {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.container-arrow-down-pink {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 67px;
+  padding-top: 5px;
+}
+
+.container-bottom-footer {
+  display:flex;
+  flex-direction:column;
+}
+
+.container-case-studies {
+  display:flex;
+  flex-direction:column;
+  width: 95%;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  padding-bottom: 40px;
+}
+
+
+.contact-page-info {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 50px
+}
+
+.copyright {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: #575757;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.div-block {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content:flex-start;
+}
+
+.div-block1 {
+  height: 450px;
+  background-color: #4EF0DE;
+}
+
+.div-block2 {
+  height: 450px;
+  background-color: #F0DD4E;
+}
+
+.div-block3 {
+  height: 450px;
+  background-color: #9E4EF0;
+}
+
+.div-block4 {
+  height: 450px;
+  background-color: #2F4361;
+}
+
+
+.footer-contact-info {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  letter-spacing: .22px;
+  padding-top: 30px;
+  padding-bottom: 140px;
+  line-height: 60px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding-top: 35px;
+}
+
+.heading-intro {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-top: 120px;
+}
+
+.heading-first {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.heading-second {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.heading-third {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-top: 70px;
+  line-height: 27px;
+}
+
+
+.link-social-media {
+  padding: 17px;
+}
+
+
+
+.nav-links {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: #000000;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+.nav-list {
+display:flex;
+justify-content: space-between;
+margin-top: -20px;
+}
+
+
+
+.section1 {
+  height:450px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.section2 {
+  height:450px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+.section3 {
+  height:450px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.section4 {
+  height:450px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+}
+
+#email-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  font-weight: 300;
+  text-decoration: none;
+  padding:16px 25px 16px 25px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+#email-link:hover {
+  color: black;
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#link-github {
+  color: #575757;
+}
+
+#link-invision-prototype {
+  color: #575757;
+}
+
+#hamburger {
+  display: none;
+  width: 100px;
+  height: 110px;
+}
+
+#heading-first-pink {
+  color: #e01095;
+}
+
+#heading-third-header {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+#highlighted-nav {
+  font-weight: 600;
+}
+
+#nav-list-hidden {
+  display: none;
+  align-items: center;
+  margin-bottom: -10em;
+
+}
+
+#nav-list-links-hidden {
+  display: none;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  color: #000000;
+  align-items: center;
+  letter-spacing: 2px;
+  margin-bottom: -10em;
+  background-color: white;
+  height: 600px;
+  z-index: 2;
+}
+
+#nav-list-links-hidden li {
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+  .contact-page-info {
+    display: flex;
+    flex-direction:column;
+    width: 80%;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 50px
+  }
+
+  .logo {
+    display: inline-block;
+    padding-top: 1px;
+    padding-left: 2px;
+  }
+
+  .header {
+    width: 80%;
+    padding-top: 35px;
+  }
+
+  .heading-first {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .heading-intro {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 60px;
+  }
+
+  .nav-list li {
+  text-align: center;
+  padding: 30px;
+  }
+
+  .nav-list{
+    display: block;
+    width: 100%;
+  }
+
+
+  .nav-links {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: #000000;
+    padding: 50px;
+    letter-spacing: 2px;
+  }
+
+  .nav-links:hover {
+    text-decoration: underline;
+  }
+
+  #hamburger {
+    display: block;
+    padding-top: 1px;
+    margin-right: 2px;
+    cursor: pointer;
+  }
+
+  #nav-list-hidden {
+    display: none;
+    width: 100%;
+  }
+  #nav-list-links-hidden {
+    display: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    color: #000000;
+    align-items: center;
+    letter-spacing: 2px;
+  }
+
+  #email-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    font-weight: 300;
+    text-decoration: none;
+    padding:16px 25px 16px 25px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+  }
+
+  #email-link:hover {
+    color: black;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+  }
+
+  .footer-contact-info {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .22px;
+    line-height: 50px;
+
+    }
+
+  .nav-list {
+    display: none;
+  }
+
+    }
