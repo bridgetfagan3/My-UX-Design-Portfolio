@@ -343,6 +343,14 @@ margin-top: -20px;
     padding-bottom: 2px;
   }
 
+  .contact-page-title {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .22px;
+    line-height: 50px;
+    margin-left: 3px;
+  }
+
   .container-about {
     display:flex;
     flex-wrap: wrap;
@@ -359,11 +367,13 @@ margin-top: -20px;
     padding-bottom: 5px;
   }
 
-  .logo {
-    display: inline-block;
-    padding-top: 1px;
-    padding-left: 2px;
-  }
+  .footer-contact-info {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .22px;
+    line-height: 50px;
+
+    }
 
   .header {
     width: 80%;
@@ -394,6 +404,16 @@ margin-top: -20px;
     flex-direction: column;
     width: 80%;
     padding-top: 60px;
+  }
+
+  .logo {
+    display: inline-block;
+    padding-top: 1px;
+    padding-left: 2px;
+  }
+
+  .nav-list {
+    display: none;
   }
 
   .nav-list li {
@@ -466,16 +486,5 @@ margin-top: -20px;
     border-style: solid;
   }
 
-  .footer-contact-info {
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: .22px;
-    line-height: 50px;
-
-    }
-
-  .nav-list {
-    display: none;
-  }
 
     }
