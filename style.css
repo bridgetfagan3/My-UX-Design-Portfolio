@@ -359,6 +359,7 @@ margin-top: -20px;
     padding-bottom: 5px;
   }
 
+
   .footer-contact-info {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
@@ -396,12 +397,6 @@ margin-top: -20px;
     flex-direction: column;
     width: 80%;
     padding-top: 60px;
-  }
-
-  .logo {
-    display: inline-block;
-    padding-top: 1px;
-    padding-left: 2px;
   }
 
   .nav-list {
