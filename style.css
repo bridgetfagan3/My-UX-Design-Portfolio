@@ -343,14 +343,6 @@ margin-top: -20px;
     padding-bottom: 2px;
   }
 
-  .contact-page-title {
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: .22px;
-    line-height: 50px;
-    margin-left: 3px;
-  }
-
   .container-about {
     display:flex;
     flex-wrap: wrap;
