@@ -267,6 +267,15 @@ margin-top: -20px;
   color: #575757;
 }
 
+  #hamburger {
+    display: none;
+    padding-top: 1px;
+    margin-right: 2px;
+    width: 100px;
+    height: 110px;
+    cursor: pointer;
+  }
+
 #heading-first-pink {
   color: #e01095;
 }
