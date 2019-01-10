@@ -267,13 +267,6 @@ margin-top: -20px;
   color: #575757;
 }
 
-#hamburger {
-  display: none;
-  visibiity: hidden;
-  width: 100px;
-  height: 110px;
-}
-
 #heading-first-pink {
   color: #e01095;
 }
@@ -424,6 +417,8 @@ margin-top: -20px;
     display: block;
     padding-top: 1px;
     margin-right: 2px;
+    width: 100px;
+    height: 110px;
     cursor: pointer;
   }
 
