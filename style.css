@@ -242,7 +242,6 @@ margin-top: -20px;
   padding-bottom: 0px;
 }
 
-
 #container-header-zeit-case-study {
   background: url("images/header-image-zeit-case-study.png") no-repeat;
 }
@@ -282,8 +281,8 @@ margin-top: -20px;
 
 #header-title-case-study {
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 50px;
+  font-weight: 400;
 }
 
 #header-subtitle-case-study {
@@ -366,7 +365,7 @@ margin-top: -20px;
 
 #text-header-case-study {
   color: white;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 
 }
 
