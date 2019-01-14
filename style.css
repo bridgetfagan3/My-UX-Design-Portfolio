@@ -183,7 +183,6 @@ a {
   padding: 17px;
 }
 
-
 .nav-links {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -199,11 +198,9 @@ a {
 
 .nav-list {
 display:flex;
-justify-content: space-between;
+justify-content: flex-end;
 margin-top: -20px;
 }
-
-
 
 .section1 {
   height:450px;
@@ -245,6 +242,11 @@ margin-top: -20px;
   padding-bottom: 0px;
 }
 
+
+#container-header-zeit-case-study {
+  background: url("images/header-image-zeit-case-study.png") no-repeat;
+}
+
 #email-link {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -262,6 +264,41 @@ margin-top: -20px;
   background-color: white;
   border-width: 2px;
   border-style: solid;
+}
+
+#header-background-zeit-case-study {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  height: 600px;
+  padding-top: 35px;
+}
+
+#header-filler-case-study {
+  width: 50px;
+  background-color:white;
+}
+
+#header-title-case-study {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#header-subtitle-case-study {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #FF9900;
+}
+
+#header-body-text-case-study {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 5px;
+  font-weight: 300;
 }
 
 #link-github {
@@ -291,6 +328,12 @@ margin-top: -20px;
   font-weight: 600;
 }
 
+/*#nav-list-case-study {
+  display:flex;
+  justify-content: flex-end;
+  margin-top: -20px;
+}*/
+
 #nav-list-hidden {
   display: none;
   align-items: center;
@@ -319,6 +362,11 @@ margin-top: -20px;
   background-color: white;
   position: relative;
   z-index: 2;
+}
+
+#text-header-case-study {
+  color: white;
+  margin-bottom: 300px;
 
 }
 
@@ -378,6 +426,12 @@ margin-top: -20px;
     padding-top: 35px;
   }
 
+  .heading-first {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
   .heading-second {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -391,19 +445,12 @@ margin-top: -20px;
     line-height: 25px;
   }
 
-  .heading-first {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-  }
-
   .heading-intro {
     display: flex;
     flex-direction: column;
     width: 80%;
     padding-top: 60px;
   }
-
 
   .nav-list li {
   text-align: center;
@@ -417,7 +464,7 @@ margin-top: -20px;
 
   .about-content {
     text-align: left;
-      Margin-left: 0px;
+    Margin-left: 0px;
   }
 
 
@@ -434,18 +481,29 @@ margin-top: -20px;
     text-decoration: underline;
   }
 
-
   #hamburger {
     display: block;
     padding-top: 1px;
-    margin-right: 2px;
+    margin-left: auto;
+    padding-right: 0px;
     cursor: pointer;
+  }
+
+  #header-title-case-study {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  #header-filler-case-study {
+    display: none;
   }
 
   #nav-list-hidden {
     display: none;
     width: 100%;
   }
+
   #nav-list-links-hidden {
     display: none;
     font-family: 'Open Sans', sans-serif;
