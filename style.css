@@ -48,6 +48,44 @@ a {
   letter-spacing: 2px;
 }
 
+.case-study-body {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.case-study-body-timeline {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding-bottom: 100px;
+  margin-top: -20px;
+}
+
+.case-study-title1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 0px;
+  line-height: 0px;
+}
+
+.case-study-title2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  padding-bottom: 0px;
+  line-height: 0px;
+
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -74,7 +112,21 @@ a {
   flex-direction:column;
 }
 
-.container-case-studies {
+.container-case-study {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 80%;
+}
+
+.container-case-study-div {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+}
+
+.container-card-case-studies {
   display:flex;
   flex-direction:column;
   width: 95%;
@@ -84,18 +136,27 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   padding-bottom: 40px;
 }
-
 
 .contact-page-info {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   text-align: center;
   padding-bottom: 100px;
   padding-top: 50px
+}
+
+/*.container-role {
+  width: 100%;
+  padding-top: 50px;
+}*/
+
+.container-tools {
+  text-align: center;
+  width: 100%;
 }
 
 .copyright {
