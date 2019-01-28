@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="733px" height="555px" viewBox="0 0 733 555" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="733" height="555"></rect>
+        <text id="Insights" font-family="Muli-SemiBold, Muli SemiBold" font-size="18" font-weight="500" letter-spacing="0.615" fill="#26393D">
+            <tspan x="116" y="48">Insights</tspan>
+        </text>
+        <text id="Recommendations" font-family="Muli-SemiBold, Muli SemiBold" font-size="18" font-weight="500" letter-spacing="0.615" fill="#26393D">
+            <tspan x="492" y="48">Recommendations</tspan>
+        </text>
+        <g id="Group-18" transform="translate(27.000000, 307.000000)">
+            <g id="Group-12">
+                <rect id="Rectangle-Copy-16" fill="#F5B9D4" x="0" y="0" width="253" height="90"></rect>
+                <text id="All-of-the-users-int" font-family="Muli-Regular, Muli" font-size="11" font-weight="normal" letter-spacing="0.615" fill="#26393D">
+                    <tspan x="17" y="33"> All of the users interacted with the </tspan>
+                    <tspan x="17" y="47">search bar first, even if they chose a </tspan>
+                    <tspan x="17" y="61">different method to look for a trip.</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Group-16" transform="translate(29.000000, 81.000000)">
+            <rect id="Rectangle-Copy-18" fill="#F5B9D4" x="0" y="0" width="253" height="90"></rect>
+            <text id="A-majority-of-users" font-family="Muli-Regular, Muli" font-size="11" font-weight="normal" letter-spacing="0.615" fill="#26393D">
+                <tspan x="17" y="29">A majority of users mentioned pricing </tspan>
+                <tspan x="17" y="43">as something that they would expect </tspan>
+                <tspan x="17" y="57">to be on the trip page.</tspan>
+            </text>
+        </g>
+        <g id="Group-11" transform="translate(27.000000, 420.000000)">
+            <rect id="Rectangle-Copy-19" fill="#F5B9D4" x="0" y="0" width="253" height="90"></rect>
+            <text id="Users-expressed-that" font-family="Muli-Regular, Muli" font-size="11" font-weight="normal" letter-spacing="0.615" fill="#26393D">
+                <tspan x="17" y="29">Users expressed that they would like </tspan>
+                <tspan x="17" y="43">to see more specific information on </tspan>
+                <tspan x="17" y="57">the trip page</tspan>
+            </text>
+        </g>
+        <g id="Group-4" transform="translate(29.000000, 194.000000)">
+            <rect id="Rectangle-Copy-20" fill="#F5B9D4" x="0" y="0" width="253" height="90"></rect>
+            <text id="More-than-one-user-t" font-family="Muli-Regular, Muli" font-size="11" font-weight="normal" letter-spacing="0.615" fill="#26393D">
+                <tspan x="17" y="29">More than  one user tried to click on </tspan>
+                <tspan x="17" y="43">the filter options on the search page</tspan>
+            </text>
+        </g>
+        <text id="High-Priority" font-family="Muli-SemiBold, Muli SemiBold" font-size="14" font-weight="500" letter-spacing="0.4783334" fill="#26393D">
+            <tspan x="343" y="95">High Priority</tspan>
+        </text>
+        <text id="Low-Priority" font-family="Muli-SemiBold, Muli SemiBold" font-size="14" font-weight="500" letter-spacing="0.4783334" fill="#26393D">
+            <tspan x="343" y="424">Low Priority</tspan>
+        </text>
+        <g id="Group-24" transform="translate(451.000000, 81.000000)">
+            <rect id="Rectangle-Copy-21" fill="#F5A6A6" x="0" y="0" width="253" height="90"></rect>
+            <text id="Display-the-trip-len" font-family="Muli-Regular, Muli" font-size="11" font-weight="normal" letter-spacing="0.615" fill="#26393D">
+                <tspan x="17" y="29">Display the trip length and price </tspan>
+                <tspan x="17" y="43">above the “Reserve” button.</tspan>
+            </text>
+        </g>
+        <g id="Group-22" transform="translate(451.000000, 194.000000)">
+            <rect id="Rectangle-Copy-22" fill="#F5A6A6" x="0" y="0" width="253" height="90"></rect>
+            <g id="Group-21" transform="translate(17.000000, 18.000000)" fill="#26393D" font-family="Muli-Regular, Muli" font-size="11" font-weight="normal" letter-spacing="0.615">
+                <text id="Add-the-group-capaci">
+                    <tspan x="0" y="11">Add the group capacity for each trip </tspan>
+                    <tspan x="0" y="25">to its corresponding card.</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Group-23" transform="translate(451.000000, 420.000000)">
+            <rect id="Rectangle-Copy-23" fill="#F5A6A6" x="0" y="0" width="253" height="90"></rect>
+            <g id="Group-20" transform="translate(17.000000, 18.000000)" fill="#26393D" font-family="Muli-Regular, Muli" font-size="11" font-weight="normal" letter-spacing="0.615">
+                <text id="Add-transportation-m">
+                    <tspan x="0" y="11">Add transportation methods under the </tspan>
+                    <tspan x="0" y="25">“What to Expect” secondary nav </tspan>
+                    <tspan x="0" y="39">option.</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Group-17" transform="translate(451.000000, 307.000000)">
+            <rect id="Rectangle-Copy-24" fill="#F5A6A6" x="0" y="0" width="253" height="90"></rect>
+            <g id="Group-19" transform="translate(17.000000, 18.000000)" fill="#26393D" font-family="Muli-Regular, Muli" font-size="11" font-weight="normal" letter-spacing="0.615">
+                <text id="On-the-homepage,-hig">
+                    <tspan x="0" y="11">On the homepage, highlight the </tspan>
+                    <tspan x="0" y="25">arrows for the drop-down options and </tspan>
+                    <tspan x="0" y="39">remove the magnifying glass.  </tspan>
+                </text>
+            </g>
+        </g>
+        <path id="Line" d="M384.5,398 L394,379 L375,379 L384.5,398 Z M383,116.5 L383,380.5 L383,382 L386,382 L386,380.5 L386,116.5 L386,115 L383,115 L383,116.5 Z" fill="#F5A6A6" fill-rule="nonzero"></path>
+    </g>
+</svg>
