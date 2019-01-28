@@ -38,6 +38,23 @@ a {
   display: block;
 }
 
+.back-to-top-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.back-to-top-link {
+  display: flex;
+  align-items: flex-end;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #C2C2C2;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 .case-studies-label {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -95,16 +112,16 @@ a {
 }
 
 
-  .case-study-body-image-title {
-    display:block;
-    text-align: left;
-    width: 80%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 350;
-    font-size: 18px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-  }
+.case-study-body-image-title {
+  display:block;
+  text-align: left;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 350;
+  font-size: 18px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
 
 .case-study-body-process {
   display:block;
@@ -175,6 +192,14 @@ a {
   flex-wrap: wrap;
   flex-direction: column;
   width: 80%;
+}
+
+.container-case-study-bottom-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  padding-bottom: 200px;
 }
 
 .container-case-study-div {
@@ -293,7 +318,6 @@ a {
 }
 
 .hifi-prototype {
-
   padding: 10px;
 }
 
@@ -475,6 +499,20 @@ margin-top: -20px;
   z-index: 2;
 }
 
+#next-case-study-link {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #e01095;
+  align-items:flex-end;
+  padding-bottom: 8px;
+  text-decoration: none;
+}
+
+#next-case-study-link:hover {
+    color: black;
+}
 #text-header-case-study {
   color: white;
   margin-bottom: 200px;
@@ -544,7 +582,6 @@ margin-top: -20px;
     width: 80%;
     padding-bottom: 5px;
   }
-
 
   .footer-contact-info {
     font-size: 18px;
