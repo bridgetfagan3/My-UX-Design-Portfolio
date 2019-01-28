@@ -142,6 +142,9 @@ a {
   margin-top: -20px;
 }
 
+.case-study-homepage-cover-zeit {
+  padding-top: 100px;
+}
 .case-study-title1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -232,6 +235,12 @@ a {
   padding-top: 50px
 }
 
+.container-project-cover {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  height: 400px;
+}
 .container-tools {
   text-align: center;
   width: 100%;
@@ -270,7 +279,7 @@ a {
 
 .div-block4 {
   height: 450px;
-  background-color: #2F4361;
+  background-image: linear-gradient(#2f4361, #1f2c40);
 }
 
 .footer-contact-info {
@@ -296,6 +305,7 @@ a {
   flex-direction: column;
   width: 80%;
   padding-top: 120px;
+  padding-bottom: 100px;
 }
 
 .heading-first {
@@ -323,6 +333,10 @@ a {
 
 .link-social-media {
   padding: 17px;
+}
+
+.link-block {
+  text-decoration: none;
 }
 
 .nav-links {
@@ -382,6 +396,15 @@ margin-top: -20px;
   padding-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0px;
+}
+
+.zeit-homepage-container-title {
+font-size: 32px;
+color: white;
+padding-top: 20px;
+margin-bottom: -15px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
 }
 
 #container-header-zeit-case-study {
