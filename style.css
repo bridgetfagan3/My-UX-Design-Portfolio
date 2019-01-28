@@ -503,7 +503,7 @@ margin-top: -20px;
   display: flex;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: #e01095;
   align-items:flex-end;
   padding-bottom: 8px;
@@ -575,6 +575,14 @@ margin-top: -20px;
     padding-bottom: 200px;
   }
 
+  .container-case-study-bottom-links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 200px;
+
+  }
+
   .container-footer {
     display: flex;
     flex-direction: column;
@@ -583,13 +591,16 @@ margin-top: -20px;
     padding-bottom: 5px;
   }
 
+  .filler-container {
+    display: none;
+  }
+
   .footer-contact-info {
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .22px;
     line-height: 50px;
-
-    }
+  }
 
   .header {
     width: 80%;
