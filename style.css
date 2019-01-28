@@ -222,6 +222,14 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 80%;
+  padding-bottom: 40px;
+}
+
+.container-footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
   width: 100%;
   padding-bottom: 40px;
 }
@@ -237,6 +245,7 @@ a {
 
 .container-project-cover {
   display:flex;
+  flex-wrap: wrap;
   flex-direction:row;
   justify-content: space-around;
   height: 400px;
@@ -287,7 +296,6 @@ a {
   font-size: 30px;
   letter-spacing: .22px;
   padding-top: 30px;
-  padding-bottom: 140px;
   line-height: 60px;
 }
 
@@ -304,8 +312,8 @@ a {
   display: flex;
   flex-direction: column;
   width: 80%;
-  padding-top: 120px;
-  padding-bottom: 100px;
+  padding-top: 160px;
+  padding-bottom: 80px;
 }
 
 .heading-first {
@@ -327,6 +335,14 @@ a {
   line-height: 25px;
 }
 
+.heading-footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 150px;
+  width: 100%;
+}
+
 .hifi-prototype {
   padding: 10px;
 }
@@ -338,7 +354,9 @@ a {
 .link-block {
   text-decoration: none;
 }
-
+.mockup-zeit-portfolio {
+  width: 40%;
+}
 .nav-links {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -581,6 +599,13 @@ font-weight: 300;
 
   }
 
+  .case-study-homepage-cover-zeit {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+
+  }
+
   .contact-page-info {
     display: flex;
     flex-direction:column;
@@ -614,12 +639,20 @@ font-weight: 300;
     padding-bottom: 5px;
   }
 
+  .container-project-cover {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: center;
+    height: 400px;
+  }
+
   .filler-container {
     display: none;
   }
 
   .footer-contact-info {
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .22px;
     line-height: 50px;
@@ -627,7 +660,6 @@ font-weight: 300;
 
   .header {
     width: 80%;
-    padding-top: 35px;
   }
 
   .heading-first {
@@ -653,8 +685,16 @@ font-weight: 300;
     display: flex;
     flex-direction: column;
     width: 80%;
-    padding-top: 60px;
+    padding-bottom: 40px;
+
   }
+
+.mockup-zeit-portfolio {
+  display: flex;
+  width: 50%%;
+  padding-left: 100px;
+
+}
 
   .nav-list li {
   text-align: center;
@@ -683,6 +723,15 @@ font-weight: 300;
 
   .nav-links:hover {
     text-decoration: underline;
+  }
+
+  .zeit-homepage-container-title {
+  font-size: 32px;
+  color: white;
+  padding-top: 0px;
+  margin-bottom: -15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   }
 
   #hamburger {
