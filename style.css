@@ -164,6 +164,14 @@ a {
 
 }
 
+.contact-info-page-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  letter-spacing: .22px;
+  padding-top: 30px;
+  line-height: 5px;
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -188,6 +196,7 @@ a {
 .container-bottom-footer {
   display:flex;
   flex-direction:column;
+  padding-top: 70px;
 }
 
 .container-case-study {
@@ -223,7 +232,7 @@ a {
   flex-direction: column;
   justify-content: center;
   width: 80%;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .container-footer-contact {
@@ -296,7 +305,8 @@ a {
   font-size: 30px;
   letter-spacing: .22px;
   padding-top: 30px;
-  line-height: 60px;
+  padding-bottom: 60px;
+  line-height: 50px;
 }
 
 .header {
@@ -312,8 +322,8 @@ a {
   display: flex;
   flex-direction: column;
   width: 80%;
-  padding-top: 160px;
-  padding-bottom: 80px;
+  padding-top: 180px;
+  padding-bottom: 120px;
 }
 
 .heading-first {
@@ -339,7 +349,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 150px;
+  padding-bottom: 180px;
   width: 100%;
 }
 
