@@ -435,6 +435,12 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 300;
 }
 
+.zeit-prototype-link {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
 #container-header-zeit-case-study {
   background: url("images/header-image-zeit-case-study.png") no-repeat;
 }
