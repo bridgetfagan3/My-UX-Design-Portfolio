@@ -143,9 +143,15 @@ a {
   margin-top: -20px;
 }
 
-.case-study-homepage-cover-zeit {
+.case-study-homepage-cover-chocolates-plus {
   padding-top: 100px;
 }
+
+.case-study-homepage-cover-zeit {
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
 .case-study-title1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -283,7 +289,7 @@ a {
 
 .div-block1 {
   height: 450px;
-  background-color: #4EF0DE;
+  background-image: linear-gradient(#C74646, #B63F3F);
 }
 
 .div-block2 {
@@ -365,9 +371,16 @@ a {
 .link-block {
   text-decoration: none;
 }
-.mockup-zeit-portfolio {
+
+.mockup-chocolates-plus-portfolio {
   width: 40%;
 }
+
+.mockup-zeit-portfolio {
+  padding-top: 60px;
+  padding-right: 20px;
+}
+
 .nav-links {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -492,7 +505,7 @@ font-weight: 300;
 #header-subtitle-chocolates-plus-case-study {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #26ADDE;
+  color: #F3C796;
 }
 
 #header-subtitle-zeit-case-study {
@@ -626,10 +639,18 @@ font-weight: 300;
 
   }
 
+  .case-study-homepage-cover-chocolates-plus {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+
+  }
+
   .case-study-homepage-cover-zeit {
     text-align: center;
     width: 100%;
     padding-top: 5px;
+    padding-left: 0px;
 
   }
 
@@ -716,11 +737,16 @@ font-weight: 300;
 
   }
 
+  .mockup-chocolates-plus-portfolio {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+
 .mockup-zeit-portfolio {
   display: flex;
-  width: 50%%;
-  padding-left: 100px;
-
+  width: 80%;
+  margin: 0 auto;
 }
 
   .nav-list li {
