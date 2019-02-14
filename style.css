@@ -164,7 +164,7 @@ a {
 .case-study-title2 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 600;
   padding-bottom: 0px;
   line-height: 0px;
@@ -377,8 +377,9 @@ a {
 }
 
 .mockup-zeit-portfolio {
-  padding-top: 60px;
+
   padding-right: 20px;
+  width: 40%;
 }
 
 .nav-links {
@@ -745,7 +746,7 @@ font-weight: 300;
 
 .mockup-zeit-portfolio {
   display: flex;
-  width: 80%;
+  width: 300px;
   margin: 0 auto;
 }
 
