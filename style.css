@@ -289,7 +289,7 @@ a {
 
 .div-block1 {
   height: 450px;
-  background-image: linear-gradient(#C74646, #B63F3F);
+  background-image: linear-gradient(to right, #1165BF, #31A3CC);
 }
 
 .div-block2 {
@@ -299,12 +299,12 @@ a {
 
 .div-block3 {
   height: 450px;
-  background-image: linear-gradient(to right, #1165BF, #31A3CC);
+  background-image: linear-gradient(#2f4361, #1f2c40);
 }
 
 .div-block4 {
   height: 450px;
-  background-image: linear-gradient(#2f4361, #1f2c40);
+  background-image: linear-gradient(#C74646, #B63F3F);
 }
 
 .footer-contact-info {
