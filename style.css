@@ -299,7 +299,7 @@ a {
 
 .div-block3 {
   height: 450px;
-  background-color: #9E4EF0;
+  background-image: linear-gradient(to right, #1165BF, #31A3CC);
 }
 
 .div-block4 {
@@ -372,14 +372,23 @@ a {
   text-decoration: none;
 }
 
+.mockup-aspiration-portfolio {
+  padding-top: 60px;
+  width: 225px;
+  padding-right: 100px;
+}
+
 .mockup-chocolates-plus-portfolio {
-  width: 40%;
+  padding-top: 60px;
+  width: 225px;
+  padding-right: 100px;
 }
 
 .mockup-zeit-portfolio {
 
-  padding-right: 20px;
-  width: 40%;
+  padding-top: 60px;
+  width: 225px;
+  padding-right: 100px;
 }
 
 .nav-links {
@@ -736,6 +745,11 @@ font-weight: 300;
     width: 80%;
     padding-bottom: 40px;
 
+  }
+  .mockup-aspiration-portfolio {
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
   }
 
   .mockup-chocolates-plus-portfolio {
