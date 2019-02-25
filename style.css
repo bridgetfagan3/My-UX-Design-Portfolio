@@ -149,15 +149,15 @@ a {
 
 .case-study-homepage-cover-zeit {
   padding-top: 100px;
-  padding-left: 50px;
+  padding-left: 50px;r
 }
 
 .case-study-title1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 0px;
   line-height: 0px;
 }
@@ -376,20 +376,23 @@ a {
 .mockup-aspiration-portfolio {
   padding-top: 60px;
   width: 225px;
+    height: 375px;
   padding-right: 100px;
 }
 
 .mockup-chocolates-plus-portfolio {
   padding-top: 60px;
   width: 225px;
+    height: 375px;
   padding-right: 100px;
 }
 
 .mockup-zeit-portfolio {
-
   padding-top: 60px;
   width: 225px;
+  height: 375px;
   padding-right: 100px;
+
 }
 
 .nav-links {
@@ -610,7 +613,7 @@ font-weight: 300;
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 800px) {
 
   .about-content {
     text-align: left;
@@ -748,19 +751,22 @@ font-weight: 300;
   }
   .mockup-aspiration-portfolio {
     display: flex;
-    width: 30%;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
   }
 
   .mockup-chocolates-plus-portfolio {
     display: flex;
-    width: 80%;
+    width: 100px;
+    height: 175px;
     margin: 0 auto;
   }
 
 .mockup-zeit-portfolio {
   display: flex;
-  width: 300px;
+  width:100px;
+  height: 100px;
   margin: 0 auto;
 }
 
