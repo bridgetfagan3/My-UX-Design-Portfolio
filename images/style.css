@@ -6,10 +6,28 @@ li {
   list-style: none;
 }
 
+a {
+  color: black;
+}
+
+.about-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: underline;
+}
 
 .about-content {
   text-align: left;
   Margin-left: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about-email-link {
+  color: black;
 }
 
 .about-photo {
@@ -19,6 +37,26 @@ li {
 
 .active {
   display: block;
+}
+
+.back-to-top-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-decoration: none;
+  padding-top: 40px;
+}
+
+.back-to-top-link {
+  display: flex;
+  align-items: flex-end;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-top: 0px;
+  margin-top: 10px;
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: 2px;
 }
 
 .case-studies-label {
@@ -31,6 +69,120 @@ li {
   letter-spacing: 2px;
 }
 
+.case-study-body {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 350;
+  font-size: 16px;
+  padding-bottom: 100px;
+  margin-top: 0px;
+}
+
+.case-study-body-key-insights {
+  display:block;
+  text-align: left;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 350;
+  font-size: 18px;
+  padding-bottom: 100px;
+  margin-top: 0px;
+  margin-left: 300px;
+}
+
+.case-study-title-key-insights {
+  display:block;
+  text-align: left;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 350;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.case-study-body-hifi-prototype {
+  display:flex;
+  justify-content:center;
+  align-items: flex-start;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 350;
+  font-size: 18px;
+  padding-bottom: 100px;
+  margin-top: 0px;
+}
+
+
+.case-study-body-image-title {
+  display:block;
+  text-align: left;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 350;
+  font-size: 18px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+}
+
+.case-study-body-process {
+  display:block;
+  text-align: left;
+  width: 80%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 350;
+  font-size: 16px;
+  padding-bottom: 100px;
+  margin-top: 0px;
+}
+
+.case-study-body-timeline {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding-bottom: 100px;
+  margin-top: -20px;
+}
+
+.case-study-homepage-cover-chocolates-plus {
+  padding-top: 100px;
+}
+
+.case-study-homepage-cover-zeit {
+  padding-top: 100px;
+  padding-left: 50px;r
+}
+
+.case-study-title1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  line-height: 0px;
+}
+
+.case-study-title2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 0px;
+  line-height: 0px;
+
+}
+
+.contact-info-page-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  letter-spacing: .22px;
+  padding-top: 30px;
+  line-height: 5px;
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -39,8 +191,7 @@ li {
 
 .container-about {
   display:flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   width: 80%;
   padding-top: 50px;
   padding-bottom: 200px;
@@ -56,9 +207,32 @@ li {
 .container-bottom-footer {
   display:flex;
   flex-direction:column;
+  padding-top: 70px;
 }
 
-.container-case-studies {
+.container-case-study {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 80%;
+}
+
+.container-case-study-bottom-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  padding-bottom: 200px;
+}
+
+.container-case-study-div {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+}
+
+.container-card-case-studies {
   display:flex;
   flex-direction:column;
   width: 95%;
@@ -69,17 +243,36 @@ li {
   flex-direction: column;
   justify-content: center;
   width: 80%;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
+.container-footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+  padding-bottom: 40px;
+}
 
 .contact-page-info {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   text-align: center;
   padding-bottom: 100px;
   padding-top: 50px
+}
+
+.container-project-cover {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: space-around;
+  height: 400px;
+}
+.container-tools {
+  text-align: center;
+  width: 100%;
 }
 
 .copyright {
@@ -100,7 +293,7 @@ li {
 
 .div-block1 {
   height: 450px;
-  background-color: #4EF0DE;
+  background-image: linear-gradient(to right, #1165BF, #31A3CC);
 }
 
 .div-block2 {
@@ -110,22 +303,21 @@ li {
 
 .div-block3 {
   height: 450px;
-  background-color: #9E4EF0;
+  background-image: linear-gradient(#2f4361, #1f2c40);
 }
 
 .div-block4 {
   height: 450px;
-  background-color: #2F4361;
+  background-image: linear-gradient(#C74646, #B63F3F);
 }
-
 
 .footer-contact-info {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   letter-spacing: .22px;
   padding-top: 30px;
-  padding-bottom: 140px;
-  line-height: 60px;
+  padding-bottom: 60px;
+  line-height: 50px;
 }
 
 .header {
@@ -141,7 +333,8 @@ li {
   display: flex;
   flex-direction: column;
   width: 80%;
-  padding-top: 120px;
+  padding-top: 180px;
+  padding-bottom: 120px;
 }
 
 .heading-first {
@@ -160,15 +353,50 @@ li {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   margin-top: 70px;
-  line-height: 27px;
+  line-height: 25px;
 }
 
+.heading-footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 180px;
+  width: 100%;
+}
+
+.hifi-prototype {
+  padding: 10px;
+}
 
 .link-social-media {
   padding: 17px;
 }
 
+.link-block {
+  text-decoration: none;
+}
 
+.mockup-aspiration-portfolio {
+  padding-top: 60px;
+  width: 225px;
+    height: 375px;
+  padding-right: 100px;
+}
+
+.mockup-chocolates-plus-portfolio {
+  padding-top: 60px;
+  width: 225px;
+    height: 375px;
+  padding-right: 100px;
+}
+
+.mockup-zeit-portfolio {
+  padding-top: 60px;
+  width: 225px;
+  height: 375px;
+  padding-right: 100px;
+
+}
 
 .nav-links {
   font-family: 'Open Sans', sans-serif;
@@ -185,11 +413,9 @@ li {
 
 .nav-list {
 display:flex;
-justify-content: space-between;
+justify-content: flex-end;
 margin-top: -20px;
 }
-
-
 
 .section1 {
   height:450px;
@@ -221,6 +447,40 @@ margin-top: -20px;
   justify-content: center;
 }
 
+.title-about-content {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  letter-spacing: .22px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.zeit-homepage-container-title {
+font-size: 32px;
+color: white;
+padding-top: 20px;
+margin-bottom: -15px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+}
+
+.zeit-prototype-link {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+
+#container-header-zeit-case-study {
+  background: url("images/header-image-zeit-case-study.png") no-repeat;
+}
+
+#container-header-chocolates-plus-case-study {
+
+}
+
 #email-link {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -238,6 +498,52 @@ margin-top: -20px;
   background-color: white;
   border-width: 2px;
   border-style: solid;
+}
+
+#header-background-zeit-case-study {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  height: 600px;
+  padding-top: 35px;
+}
+
+#header-filler-case-study {
+  width: 50px;
+  background-color:white;
+}
+
+#header-title-case-study {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+#header-subtitle-chocolates-plus-case-study {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #1346B7;
+}
+
+#header-subtitle-chocolates-plus-container {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+#header-subtitle-zeit-case-study {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #FF9900;
+}
+
+#header-body-text-case-study {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 5px;
+  font-weight: 300;
 }
 
 #link-github {
@@ -295,29 +601,136 @@ margin-top: -20px;
   background-color: white;
   position: relative;
   z-index: 2;
+}
+
+#next-case-study-link {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #e01095;
+  align-items:flex-end;
+  padding-bottom: 8px;
+  text-decoration: none;
+}
+
+#next-case-study-link:hover {
+    color: black;
+}
+#text-header-case-study {
+  margin-top: 30px;
+  margin-bottom: 50px;
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+
+  .about-content {
+    text-align: left;
+    Margin-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 50px;
+  }
+
+  .about-photo {
+    width: auto;
+    height: auto;
+  }
+
+  .case-study-body-key-insights {
+    display:block;
+    text-align: left;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 350;
+    font-size: 18px;
+    padding-bottom: 100px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .case-study-title2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    line-height: 40px;
+
+  }
+
+  .case-study-homepage-cover-chocolates-plus {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+
+  }
+
+  .case-study-homepage-cover-zeit {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 0px;
+
+  }
 
   .contact-page-info {
     display: flex;
     flex-direction:column;
     width: 80%;
     align-items: center;
-    padding-bottom: 100px;
-    padding-top: 50px
+    padding-top: 45px;
+    padding-bottom: 2px;
   }
 
-  .logo {
-    display: inline-block;
-    padding-top: 1px;
-    padding-left: 2px;
+  .container-about {
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+
+  .container-case-study-bottom-links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 200px;
+
+  }
+
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding-bottom: 5px;
+  }
+
+  .container-project-cover {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: center;
+    height: 400px;
+  }
+
+  .filler-container {
+    display: none;
+  }
+
+  .footer-contact-info {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .22px;
+    line-height: 50px;
   }
 
   .header {
     width: 80%;
-    padding-top: 35px;
   }
 
   .heading-first {
@@ -326,12 +739,46 @@ margin-top: -20px;
     font-weight: 600;
   }
 
+  .heading-second {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .heading-third {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 50px;
+    line-height: 25px;
+  }
+
   .heading-intro {
     display: flex;
     flex-direction: column;
     width: 80%;
-    padding-top: 60px;
+    padding-bottom: 40px;
+
   }
+  .mockup-aspiration-portfolio {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .mockup-chocolates-plus-portfolio {
+    display: flex;
+    width: 100px;
+    height: 175px;
+    margin: 0 auto;
+  }
+
+.mockup-zeit-portfolio {
+  display: flex;
+  width:100px;
+  height: 100px;
+  margin: 0 auto;
+}
 
   .nav-list li {
   text-align: center;
@@ -339,8 +786,13 @@ margin-top: -20px;
   }
 
   .nav-list{
-    display: block;
+    display: none;
     width: 100%;
+  }
+
+  .about-content {
+    text-align: left;
+    Margin-left: 0px;
   }
 
 
@@ -357,17 +809,38 @@ margin-top: -20px;
     text-decoration: underline;
   }
 
+  .zeit-homepage-container-title {
+  font-size: 32px;
+  color: white;
+  padding-top: 0px;
+  margin-bottom: -15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  }
+
   #hamburger {
     display: block;
     padding-top: 1px;
-    margin-right: 2px;
+    margin-left: auto;
+    padding-right: 0px;
     cursor: pointer;
+  }
+
+  #header-title-case-study {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  #header-filler-case-study {
+    display: none;
   }
 
   #nav-list-hidden {
     display: none;
     width: 100%;
   }
+
   #nav-list-links-hidden {
     display: none;
     font-family: 'Open Sans', sans-serif;
@@ -397,16 +870,5 @@ margin-top: -20px;
     border-style: solid;
   }
 
-  .footer-contact-info {
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: .22px;
-    line-height: 50px;
-
-    }
-
-  .nav-list {
-    display: none;
-  }
 
     }
