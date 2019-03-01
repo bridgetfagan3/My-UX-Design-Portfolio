@@ -16,6 +16,7 @@ a {
   font-size: 16px;
   text-decoration: underline;
 }
+
 .about-content {
   text-align: left;
   Margin-left: 40px;
@@ -73,7 +74,7 @@ a {
   width: 80%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 350;
-  font-size: 18px;
+  font-size: 16px;
   padding-bottom: 100px;
   margin-top: 0px;
 }
@@ -130,7 +131,7 @@ a {
   width: 80%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 350;
-  font-size: 18px;
+  font-size: 16px;
   padding-bottom: 100px;
   margin-top: 0px;
 }
@@ -155,7 +156,7 @@ a {
 .case-study-title1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
   padding-top: 40px;
   padding-bottom: 0px;
@@ -469,6 +470,7 @@ font-weight: 300;
   font-size: 16px;
 }
 
+
 #container-header-zeit-case-study {
   background: url("images/header-image-zeit-case-study.png") no-repeat;
 }
@@ -519,7 +521,7 @@ font-weight: 300;
 #header-subtitle-chocolates-plus-case-study {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #F3C796;
+  color: #1346B7;
 }
 
 #header-subtitle-zeit-case-study {
