@@ -52,9 +52,11 @@ a {
   align-items: flex-end;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #C2C2C2;
   padding-top: 0px;
   margin-top: 10px;
+  font-weight: 300;
+  color: #000000;
+  letter-spacing: 2px;
 }
 
 .case-studies-label {
@@ -522,6 +524,12 @@ font-weight: 300;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #1346B7;
+}
+
+#header-subtitle-chocolates-plus-container {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
 }
 
 #header-subtitle-zeit-case-study {
