@@ -363,7 +363,7 @@ background-color: #F0F0F0;
   flex-direction: column;
   width: 80%;
   padding-top: 180px;
-  padding-bottom: 120px;
+  padding-bottom: 160px;
 }
 
 .heading-first {
@@ -407,14 +407,14 @@ background-color: #F0F0F0;
 
 
 .mockup-aspiration-portfolio {
-  padding-top: 60px;
+  padding-top: 35px;
   width: 225px;
     height: 375px;
   padding-right: 100px;
 }
 
 .mockup-chocolates-plus-portfolio {
-  padding-top: 60px;
+  padding-top: 35px;
   width: 225px;
     height: 375px;
   padding-right: 100px;
