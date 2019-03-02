@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="23px" height="12px" viewBox="0 0 23 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="21px" height="12px" viewBox="0 0 21 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>pink arrow down</title>
+    <title>Group</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <g id="case-study-1" transform="translate(-702.000000, -14477.000000)" stroke="#B3B3B3">
-            <g id="grey-arrow-up" transform="translate(703.000000, 14478.000000)">
-                <path d="M10.5,8.44607196 L19.8997864,0.362363384 L20.3211448,-1.81188398e-13 L21,0.899660815 L20.5786416,1.2620242 L10.8848046,9.59861287 L10.5819308,10 L10.5,9.92954045 L10.4180692,10 L10.1151954,9.59861287 L0.421358388,1.2620242 L4.54747351e-13,0.899660815 L0.678855181,-2.27373675e-13 L1.10021357,0.362363384 L10.5,8.44607196 Z" id="Combined-Shape" transform="translate(10.500000, 5.000000) scale(1, -1) translate(-10.500000, -5.000000) "></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Artboard" transform="translate(-47.000000, -37.000000)" stroke="#000000">
+            <g id="Group" transform="translate(47.000000, 38.000000)">
+                <path d="M0.181818182,10 L9.88484659,0.29697159" id="Line"></path>
+                <path d="M10,10 L19.7030284,0.29697159" id="Line" transform="translate(14.909091, 5.090909) scale(1, -1) translate(-14.909091, -5.090909) "></path>
             </g>
         </g>
     </g>
