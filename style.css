@@ -298,10 +298,30 @@ a {
 
 .div-block2 {
   height: 450px;
-  background-color: #F0DD4E;
+  background-color: #F9F9F9;
 }
 
 .div-block3 {
+  height: 450px;
+  background-image: linear-gradient(#2f4361, #1f2c40);
+}
+
+.div-block4:hover {
+  height: 450px;
+background-color: #F0F0F0;
+}
+
+.div-block1:hover {
+  height: 450px;
+background-color: #F0F0F0;
+}
+
+.div-block2:hover{
+  height: 450px;
+background-color: #F0F0F0;
+}
+
+.div-block3:hover {
   height: 450px;
   background-image: linear-gradient(#2f4361, #1f2c40);
 }
@@ -376,6 +396,7 @@ a {
   text-decoration: none;
 }
 
+
 .mockup-aspiration-portfolio {
   padding-top: 60px;
   width: 225px;
@@ -440,6 +461,10 @@ margin-top: -20px;
   height:450px;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.section4 a.link-block:hover {
+    background-color: #F0F0F0;
 }
 
 .social-media-links {
@@ -810,8 +835,8 @@ font-weight: 300;
   }
 
   .zeit-homepage-container-title {
-  font-size: 32px;
-  color: white;
+  font-size: 28px;
+  color: black;
   padding-top: 0px;
   margin-bottom: -15px;
   font-family: 'Montserrat', sans-serif;
