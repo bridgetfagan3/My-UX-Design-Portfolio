@@ -293,7 +293,7 @@ a {
 
 .div-block1 {
   height: 450px;
-  background-image: linear-gradient(to right, #1165BF, #31A3CC);
+  background-color: #F9F9F9;
 }
 
 .div-block2 {
@@ -308,7 +308,7 @@ a {
 
 .div-block4 {
   height: 450px;
-  background-image: linear-gradient(#C74646, #B63F3F);
+  background-color: #F9F9F9;
 }
 
 .footer-contact-info {
@@ -459,7 +459,7 @@ margin-top: -20px;
 
 .zeit-homepage-container-title {
 font-size: 32px;
-color: white;
+color: black;
 padding-top: 20px;
 margin-bottom: -15px;
 font-family: 'Montserrat', sans-serif;
@@ -520,7 +520,7 @@ font-weight: 300;
   font-weight: 400;
 }
 
-#header-subtitle-chocolates-plus-case-study {
+#header-subtitle-aspiration-study {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #1346B7;
@@ -529,13 +529,13 @@ font-weight: 300;
 #header-subtitle-chocolates-plus-container {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #A92B26;
 }
 
-#header-subtitle-zeit-case-study {
+#header-subtitle-aspiration-container {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  color: #FF9900;
+  color:#1346B7;
 }
 
 #header-body-text-case-study {
