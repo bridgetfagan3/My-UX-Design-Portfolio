@@ -350,6 +350,11 @@ background-color: #F0F0F0;
   line-height: 50px;
 }
 
+.gif_chocolatesplus {
+  width: 80%;
+  padding-right: 70px;
+}
+
 .header {
   display: flex;
   flex-wrap: wrap;
