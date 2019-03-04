@@ -424,6 +424,11 @@ background-color: #F0F0F0;
   padding-right: 100px;
 }
 
+.mockup-zeit-case-study {
+  padding-top: 0px;
+  width:80%
+}
+
 .mockup-zeit-portfolio {
   padding-top: 25px;
   width: 185px;
