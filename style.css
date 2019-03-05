@@ -194,6 +194,18 @@ a {
   padding-top: 0px;
   padding-bottom: 0px;
   line-height: 20px;
+  color: #1346B7;
+}
+
+.case-study-title2-chocolatesplus {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 20px;
+  color: #A92B26;
 }
 
 .contact-info-page-title {
