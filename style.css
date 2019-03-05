@@ -208,6 +208,17 @@ a {
   color: #A92B26;
 }
 
+.case-study-title2-zeit {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 20px;
+  color: #FF9900;
+}
+
 .contact-info-page-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
