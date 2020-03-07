@@ -892,9 +892,6 @@ font-weight: 400;
     width: 100%
   }
   
-  .container-about {
-    width: 90%;
-}
 
   .title-about-content {
     font-family: 'Montserrat', sans-serif;
@@ -915,13 +912,8 @@ font-weight: 400;
   }
 
   .about-photo {
-    width: auto;
-    height: auto;
+    width: 80%;
     padding-top: 2em;
-  }
-
-  .container {
-    width: 90%;
   }
   
   .container-case-study-div-recent-work{
