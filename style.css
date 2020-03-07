@@ -883,7 +883,7 @@ font-weight: 400;
 
   .about-content {
     text-align: left;
-    Margin-left: 10px;
+    Margin-left: 5m;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -912,7 +912,8 @@ font-weight: 400;
   }
 
   .about-photo {
-    width: 80%;
+    width: auto;
+    height: auto;
     padding-top: 2em;
   }
   
