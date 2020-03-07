@@ -412,6 +412,13 @@ a {
   width: 100%;
 }
 
+.container-case-study-div-recent-work {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+}
+
 .container-card-case-studies {
   display:flex;
   flex-direction:column;
@@ -611,6 +618,7 @@ background-color: #F0F0F0;
 .img_lightbulb {
   width: 30%;
 }
+
 .mockup-aspiration-portfolio {
   padding-top: 25px;
   width: 185px;
@@ -717,14 +725,10 @@ font-weight: 400;
 }
 
 
-
 #container-header-zeit-case-study {
   background: url("images/header-image-zeit-case-study.png") no-repeat;
 }
 
-#container-header-chocolates-plus-case-study {
-
-}
 
 #email-link {
   font-family: 'Open Sans', sans-serif;
@@ -813,7 +817,7 @@ font-weight: 400;
 }
 
 #heading-first-pink {
-  color: #e01095;
+  color: #E24895;
 }
 
 #heading-third-header {
@@ -879,17 +883,30 @@ font-weight: 400;
 
   .about-content {
     text-align: left;
-    Margin-left: 40px;
+    Margin-left: 10px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
-    line-height: 24px;
-    padding-top: 50px;
+    line-height: 34px;
+    padding-top: 3em;
+    width: 100%
+  }
+
+  .about-content-first {
+    font-size: 16px;
   }
 
   .about-photo {
     width: auto;
     height: auto;
+    padding-top: 2em;
+  }
+
+
+  .container-case-study-div-recent-work{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .case-study-body-key-insights {
@@ -981,6 +998,12 @@ font-weight: 400;
     height: 400px;
   }
 
+  .dropdown {
+    display: inline-block;
+    position:relative;
+    margin-right: 20%;
+  }
+
   .filler-container {
     display: none;
   }
@@ -1026,6 +1049,12 @@ font-weight: 400;
     padding-bottom: 40px;
 
   }
+
+
+  .img_lightbulb {
+    width: 50%;
+  }
+
   .mockup-aspiration-portfolio {
     display: flex;
     width: 100px;
@@ -1092,6 +1121,7 @@ font-weight: 400;
   .nav-links:hover {
     text-decoration: underline;
   }
+
 
   .zeit-homepage-container-title {
   font-size: 28px;
