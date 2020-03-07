@@ -887,9 +887,21 @@ font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
-    line-height: 34px;
+    line-height: 30px;
     padding-top: 3em;
     width: 100%
+  }
+
+  .title-about-content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: .22px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: 42px;
   }
 
   .about-content-first {
@@ -907,6 +919,16 @@ font-weight: 400;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
+  }
+
+  .container-about {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    margin-left: 2em;
+
   }
 
   .case-study-body-key-insights {
@@ -966,13 +988,6 @@ font-weight: 400;
     padding-bottom: 2px;
   }
 
-  .container-about {
-    display:flex;
-    flex-wrap: wrap;
-    width: 80%;
-    padding-top: 50px;
-    padding-bottom: 200px;
-  }
 
   .container-case-study-bottom-links {
     display: flex;
