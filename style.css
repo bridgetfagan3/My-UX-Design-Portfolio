@@ -10,6 +10,7 @@ a {
   color: black;
 }
 
+
 /*button */
 
 .dropdown {
@@ -117,19 +118,26 @@ a {
 
 
 .about-title {
-  text-decoration: underline;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 16px;
+  text-decoration: underline;
+  padding-top: 2em;
 }
 
 .about-content {
   text-align: left;
-  Margin-left: 40px;
+  width: 60%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 30px;
+  padding-right: 8em;
+
+}
+
+.about-content-first {
+  font-size: 22px;
 }
 
 .about-email-link {
@@ -333,6 +341,18 @@ a {
   line-height: 5px;
 }
 
+.contact-info {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: .22px;
+  margin-top: 0px;
+  padding-top: 26px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: #E24895;
+}
+
 .container {
   display: flex;
   width: 100%;
@@ -341,10 +361,11 @@ a {
 
 .container-about {
   display:flex;
-  justify-content: center;
+  justify-content: flex-start;
   width: 80%;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 200px;
+
 }
 
 .container-arrow-down-pink {
@@ -482,6 +503,11 @@ background-color: #F0F0F0;
   background-color: #F9F9F9;
 }
 
+.email {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
 .footer-contact-info {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
@@ -557,8 +583,18 @@ background-color: #F0F0F0;
   padding: 17px;
 }
 
+
+.link-social-media-two {
+  width: 5%;
+  padding-left: 1em;
+}
+
 .link-block {
   text-decoration: none;
+}
+
+.logo {
+  margin-left: 11%;
 }
 
 
@@ -643,14 +679,13 @@ margin-top: -20px;
 
 .title-about-content {
   font-family: 'Montserrat', sans-serif;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 600;
   letter-spacing: .22px;
   margin-top: 0px;
   padding-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0px;
-
 }
 
 .zeit-homepage-container-title {
