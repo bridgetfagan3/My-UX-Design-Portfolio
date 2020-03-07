@@ -891,6 +891,10 @@ font-weight: 400;
     padding-top: 3em;
     width: 100%
   }
+  
+  .container-about {
+    width: 90%;
+}
 
   .title-about-content {
     font-family: 'Montserrat', sans-serif;
