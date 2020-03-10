@@ -410,14 +410,14 @@ a {
   padding-bottom: 200px;
 }
 
-.container-case-study-div {
+.container-case-study-div-research {
   display: flex;
   justify-content:center;
   align-items: center;
   width: 100%;
 }
 
-.container-case-study-div-recent-work {
+.container-case-study-div-recent-work-research {
   display: flex;
   justify-content:center;
   align-items: center;
