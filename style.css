@@ -410,14 +410,14 @@ a {
   padding-bottom: 200px;
 }
 
-.container-case-study-div-research {
+.container-case-study-div {
   display: flex;
   justify-content:center;
   align-items: center;
   width: 100%;
 }
 
-.container-case-study-div-recent-work-research {
+.container-case-study-div-recent-work {
   display: flex;
   justify-content:center;
   align-items: center;
@@ -1015,12 +1015,12 @@ font-weight: 400;
     padding-bottom: 2px;
   }
 
-.container-case-study {
+.container-case-study-research {
   width: 100%;
   margin-left: -1em;
   margin-right: 2em;
 }
-.container-case-study-div {
+.container-case-study-div-research {
   display: flex;
   justify-content:center;
   align-items: left;
