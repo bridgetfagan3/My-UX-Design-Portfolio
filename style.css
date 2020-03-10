@@ -116,6 +116,9 @@ a {
   border-bottom: 1px solid #cccccc;
 }
 
+.about-break {
+  display: none;
+}
 
 .about-title {
   font-family: 'Open Sans', sans-serif;
@@ -124,10 +127,6 @@ a {
   text-decoration: underline;
   padding-top: 2em;
 }
-
-  .about-break {
-    display: none;
-  }
 
 .about-content {
   text-align: left;
@@ -273,7 +272,7 @@ a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  padding-bottom: 150px;
+  padding-bottom: 120px;
   margin-top: -10px;
 }
 
@@ -555,8 +554,8 @@ background-color: #F0F0F0;
 }
 
 .gif_chocolatesplus {
-  width: 80%;
-  padding-right: 70px;
+  width: 100%;
+  padding-right: 1em;
 }
 
 .gif_zeit {
@@ -900,7 +899,7 @@ font-weight: 400;
 
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
 
- .about-content {
+  .about-content {
     text-align: left;
     Margin-left: 5em;
     font-family: 'Open Sans', sans-serif;
@@ -982,6 +981,14 @@ font-weight: 400;
     padding-bottom: 100px;
     margin-top: 0px;
     margin-left: 0px;
+  }
+
+  .case-study-body-timeline {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding-bottom: 50px;
+    margin-top: -10px;
   }
 
   .case-study-title2 {
