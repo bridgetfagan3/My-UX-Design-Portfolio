@@ -882,34 +882,9 @@ font-weight: 400;
 
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
 
-  .about-content {
-    text-align: left;
-    Margin-left: 5m;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 30px;
-    padding-top: 3em;
-    width: 100%
-  }
-  
+  .about-paragraph {
+    width:100%;
 
-  .title-about-content {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    letter-spacing: .22px;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    line-height: 42px;
-    width: 100%
-  }
-
-  .about-content-first {
-    font-size: 16px;
-    width: 100%;
   }
 
   .about-photo {
