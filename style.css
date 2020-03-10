@@ -125,6 +125,10 @@ a {
   padding-top: 2em;
 }
 
+  .about-break {
+    display: none;
+  }
+
 .about-content {
   text-align: left;
   width: 60%;
@@ -909,6 +913,10 @@ font-weight: 400;
     margin-bottom: 0px;
     padding-bottom: 0px;
     line-height: 42px;
+  }
+  
+  .about-break {
+    display: inline-flex;
   }
 
   .about-content-first {
