@@ -402,6 +402,13 @@ a {
   width: 80%;
 }
 
+.container-case-study-research {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 80%;
+}
+
 .container-case-study-bottom-links {
   display: flex;
   flex-wrap: wrap;
@@ -411,6 +418,13 @@ a {
 }
 
 .container-case-study-div {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+}
+
+.container-case-study-div-research {
   display: flex;
   justify-content:center;
   align-items: center;
